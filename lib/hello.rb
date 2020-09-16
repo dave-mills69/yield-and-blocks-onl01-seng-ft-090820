@@ -1,7 +1,9 @@
-def hello_t(array)
+hello_t(["Tim", "Tom", "Jim"]) do
   x = 0 
+ 
   while x < array.length 
-  x = x + 1 
+    yeild array[x]
+    x = x + 1 
   end
 end
 
